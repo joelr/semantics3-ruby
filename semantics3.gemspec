@@ -10,7 +10,7 @@ spec = Gem::Specification.new do |s|
   s.homepage = 'https://semantics3.com'
   s.require_paths = %w{lib}
 
-  s.add_dependency('json', '~> 1.7.0')
+  s.add_dependency('json', '~> 1.8.0')
   s.add_dependency('oauth', '~> 0.4.6')
 
   s.files = `git ls-files`.split("\n")
